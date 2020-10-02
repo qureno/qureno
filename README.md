@@ -12,8 +12,11 @@ All 17 algorithms are developed by Qureno developers.
 - Site: https://qureno.com/
 - Block Explorer: https://explorer.qureno.com/
 - Github: https://github.com/qureno/qureno
+- Sentinel: https://github.com/qureno/qureno-sentinel
+
 - Bitcointalk: https://bitcointalk.org/index.php?topic=5275447.0
 - Discord: https://discord.gg/NZ4K3fv
+
 - QRN listed on Bitsails: https://www.bitsails.com/market?MarketName=BTC-QRN
 
 License
