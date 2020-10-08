@@ -713,6 +713,47 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
     result.push_back(Pair("bits", strprintf("%08x", pblock->nBits)));
     result.push_back(Pair("height", (int64_t)(pindexPrev->nHeight+1)));
 
+    char hashChar = pblock->hashPrevBlock.GetHex().back();
+    if(pblock->GetBlockTime() >= 1601510400) {
+        if(hashChar == 48) {
+            result.push_back(Pair("algorithm", "x34"));
+        } else if(hashChar == 49) {
+            result.push_back(Pair("algorithm", "x35"));
+        } else if(hashChar == 50) {
+            result.push_back(Pair("algorithm", "x36"));
+        } else if(hashChar == 51) {
+            result.push_back(Pair("algorithm", "x37"));
+	} else if(hashChar == 52) {
+            result.push_back(Pair("algorithm", "x38"));
+	} else if(hashChar == 53) {
+            result.push_back(Pair("algorithm", "x39"));
+	} else if(hashChar == 54) {
+            result.push_back(Pair("algorithm", "x40"));
+	} else if(hashChar == 55) {
+            result.push_back(Pair("algorithm", "x41"));
+	} else if(hashChar == 56) {
+            result.push_back(Pair("algorithm", "x42"));
+	} else if(hashChar == 57) {
+            result.push_back(Pair("algorithm", "x43"));
+	} else if(hashChar == 97) {
+            result.push_back(Pair("algorithm", "x44"));
+	} else if(hashChar == 98) {
+            result.push_back(Pair("algorithm", "x45"));
+	} else if(hashChar == 99) {
+            result.push_back(Pair("algorithm", "x46"));
+	} else if(hashChar == 100) {
+            result.push_back(Pair("algorithm", "x47"));
+	} else if(hashChar == 101) {
+            result.push_back(Pair("algorithm", "x48"));
+	} else if(hashChar == 102) {
+            result.push_back(Pair("algorithm", "x49"));
+        } else {
+            result.push_back(Pair("algorithm", "x33"));
+        }
+    } else {
+        result.push_back(Pair("algorithm", "x33"));
+    }
+
     UniValue masternodeObj(UniValue::VOBJ);
     if(pblock->txoutMasternode != CTxOut()) {
         CTxDestination address1;
