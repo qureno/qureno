@@ -1,4 +1,4 @@
-Qureno Core staging tree 0.13.0.5
+Qureno Core staging tree 0.13.0.6
 ===============================
 Random selection of one of the unique algorithms:
 
