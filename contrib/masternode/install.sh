@@ -16,14 +16,14 @@ sudo apt-get install mc htop git python-virtualenv ntpdate -y
 sudo ntpdate -u pool.ntp.org
 sudo mkdir /opt/qureno-core
 cd /opt/qureno-core
-wget https://github.com/qureno/qureno/releases/download/0.13.0.6/qureno-0.13.0.6-linux.tar.gz
-tar -xvf qureno-0.13.0.6-linux.tar.gz
-rm qureno-0.13.0.6-linux.tar.gz
-mv qureno-0.13.0.6-linux/qurenod ./qurenod
-mv qureno-0.13.0.6-linux/qureno-cli ./qureno-cli
-mv qureno-0.13.0.6-linux/qureno-tx ./qureno-tx
-mv qureno-0.13.0.6-linux/qureno-qt ./qureno-qt
-rm -rf qureno-0.13.0.6-linux
+wget https://github.com/qureno/qureno/releases/download/0.13.1.1/qureno-0.13.1.1-linux.tar.gz
+tar -xvf qureno-0.13.1.1-linux.tar.gz
+rm qureno-0.13.1.1-linux.tar.gz
+mv qureno-0.13.1.1-linux/qurenod ./qurenod
+mv qureno-0.13.1.1-linux/qureno-cli ./qureno-cli
+mv qureno-0.13.1.1-linux/qureno-tx ./qureno-tx
+mv qureno-0.13.1.1-linux/qureno-qt ./qureno-qt
+rm -rf qureno-0.13.1.1-linux
 chmod -R 755 /opt/qureno-core
 cd /opt
 git clone https://github.com/qureno/qureno-sentinel qureno-sentinel

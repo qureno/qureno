@@ -714,7 +714,9 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
     result.push_back(Pair("height", (int64_t)(pindexPrev->nHeight+1)));
 
     char hashChar = pblock->hashPrevBlock.GetHex().back();
-    if(pblock->GetBlockTime() >= 1601510400) {
+    if(pblock->GetBlockTime() >= 1606780800) {
+        result.push_back(Pair("algorithm", "x33"));
+    } else if(pblock->GetBlockTime() >= 1601510400 && pblock->GetBlockTime() < 1606780800) {
         if(hashChar == 48) {
             result.push_back(Pair("algorithm", "x34"));
         } else if(hashChar == 49) {

@@ -1,14 +1,10 @@
-Qureno Core staging tree 0.13.0.6
+Qureno Core staging tree 0.13.1.1
 ===============================
-Random selection of one of the unique algorithms:
-
-x33, x34, x35, x36, x37, x38, x39, x40, x41, x42, x43, x44, x45, x46, x47, x48 or x49.
-
-All 17 algorithms are developed by Qureno developers.
 
 ## Development Resources
 
 ###### Resources:
+- Algo: x33
 - Site: https://qureno.com/
 - Block Explorer: https://explorer.qureno.com/
 - Github: https://github.com/qureno/qureno
