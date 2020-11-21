@@ -145,17 +145,22 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x1775b3391d3bb8a16d45c4ad4e96d28a5e8c4903525fdc1160328947d907e414"));
 
 	vSeeds.push_back(CDNSSeedData("148.251.80.226", "148.251.80.226"));
-	vSeeds.push_back(CDNSSeedData("87.247.142.228", "87.247.142.228"));
-	vSeeds.push_back(CDNSSeedData("193.47.33.188", "193.47.33.188"));
-	vSeeds.push_back(CDNSSeedData("2.58.98.62", "2.58.98.62"));
-	vSeeds.push_back(CDNSSeedData("193.47.33.160", "193.47.33.160"));
-	vSeeds.push_back(CDNSSeedData("193.47.33.253", "193.47.33.253"));
-	vSeeds.push_back(CDNSSeedData("193.47.33.3", "193.47.33.3"));
-	vSeeds.push_back(CDNSSeedData("193.47.33.115", "193.47.33.115"));
-	vSeeds.push_back(CDNSSeedData("45.91.8.248", "45.91.8.248"));
-	vSeeds.push_back(CDNSSeedData("45.91.8.249", "45.91.8.249"));
-	vSeeds.push_back(CDNSSeedData("45.8.157.230", "45.8.157.230"));
-	vSeeds.push_back(CDNSSeedData("45.8.157.231", "45.8.157.231"));
+	vSeeds.push_back(CDNSSeedData("2.58.98.46", "2.58.98.46"));
+	vSeeds.push_back(CDNSSeedData("2.58.98.113", "2.58.98.113"));
+	vSeeds.push_back(CDNSSeedData("2.58.98.128", "2.58.98.128"));
+	vSeeds.push_back(CDNSSeedData("87.247.142.155", "87.247.142.155"));
+	vSeeds.push_back(CDNSSeedData("87.247.142.159", "87.247.142.159"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.121", "193.47.33.121"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.122", "193.47.33.122"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.194", "193.47.33.194"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.235", "193.47.33.235"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.236", "193.47.33.236"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.245", "193.47.33.245"));
+	vSeeds.push_back(CDNSSeedData("193.47.33.252", "193.47.33.252"));
+	vSeeds.push_back(CDNSSeedData("194.93.0.151", "194.93.0.151"));
+	vSeeds.push_back(CDNSSeedData("194.93.0.155", "194.93.0.155"));
+	vSeeds.push_back(CDNSSeedData("194.93.0.239", "194.93.0.239"));
+	vSeeds.push_back(CDNSSeedData("194.93.0.241", "194.93.0.241"));
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
