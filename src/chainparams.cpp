@@ -161,6 +161,9 @@ public:
 	vSeeds.push_back(CDNSSeedData("194.93.0.155", "194.93.0.155"));
 	vSeeds.push_back(CDNSSeedData("194.93.0.239", "194.93.0.239"));
 	vSeeds.push_back(CDNSSeedData("194.93.0.241", "194.93.0.241"));
+	vSeeds.push_back(CDNSSeedData("91.188.222.37", "91.188.222.37"));
+	vSeeds.push_back(CDNSSeedData("91.188.222.76", "91.188.222.76"));
+	vSeeds.push_back(CDNSSeedData("91.188.222.77", "91.188.222.77"));
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
