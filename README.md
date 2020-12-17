@@ -1,4 +1,4 @@
-Qureno Core staging tree 0.13.1.1
+Qureno Core staging tree 0.13.1.2
 ===============================
 
 ## Development Resources
